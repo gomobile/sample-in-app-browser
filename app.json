@@ -1,0 +1,22 @@
+{
+   "repoName" : "sample-inappbrowser",
+   "description" : "This sample application showcases the Cordova* InAppBrowser API. With this sample app you can access webpages, open PDF files and local stored images. ",
+   "appPreview" : false,
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "relName" : "4.0.0",
+   "articleUrl" : "",
+   "highlights" : [
+      "Apache Cordova API"
+   ],
+   "mobile" : false,
+   "keywords" : [
+      "Apache Cordova API",
+      "InAppBrowser"
+   ],
+   "iconUrl" : "",
+   "screenshotUrl" : "",
+   "title" : "InAppBrowser",
+   "tooltip" : "A simple app to show InAppBrowser API utilization",
+   "visible" : true,
+   "appName" : "demo.inappbrowser"
+}
