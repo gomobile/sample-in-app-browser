@@ -12,6 +12,7 @@
 /*jslint browser:true, devel:true, white:true, vars:true */
 /*global $:false, intel:false, app:false, dev:false */
 /*global myEventHandler:false, cordova:false, device:false */
+/*global UAParser:false, extPage:false, openExtPageTimed:false, extPageSysBrowser:false, openOnlinePDF:false, localImg:false */
 
 
 
@@ -60,7 +61,7 @@ app.initEvents = function() {
 
     // NOTE: initialize your app event handlers, see app.js for a simple event handler example
 
-    var el, evt ;
+    var el, evt;
 
     if( navigator.msPointerEnabled || !('ontouchend' in window))    // if on Win 8 machine or no touch
         evt = "click" ;                                             // let touch become a click event
@@ -68,15 +69,15 @@ app.initEvents = function() {
         evt = "touchend" ;                                          // not optimum, but works
 
     el = document.getElementById("id_btnExtPage") ;
-    el.addEventListener(evt, extPage(), false) ;
+    el.addEventListener(evt, extPage, false) ;
     el = document.getElementById("id_btnExtPageTimed") ;
     el.addEventListener(evt, openExtPageTimed, false) ;
     el = document.getElementById("id_btnExtPageSysBrowser") ;
     el.addEventListener(evt, extPageSysBrowser, false) ;
     el = document.getElementById("id_btnOpenPDF") ;
-    el.addEventListener(evt, openOnlinePDF(), false) ;
+    el.addEventListener(evt, openOnlinePDF, false) ;
     el = document.getElementById("id_btnLocalImg") ;
-    el.addEventListener(evt, localImg(), false) ;
+    el.addEventListener(evt, localImg, false) ;
 
     // NOTE: ...you can put other miscellaneous init stuff in this function...
     // NOTE: ...and add whatever else you want to do now that the app has started...

@@ -1,3 +1,5 @@
+/*global console:false, window:false, moment:false, document:false */
+
 var orgConsoleLog = console.log ;
 var orgTime = Date.now() ;
 console.log = function() {
