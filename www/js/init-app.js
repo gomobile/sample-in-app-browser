@@ -69,15 +69,15 @@ app.initEvents = function() {
         evt = "touchend" ;                                          // not optimum, but works
 
     el = document.getElementById("id_btnExtPage") ;
-    el.addEventListener(evt, extPage, false) ;
-    el = document.getElementById("id_btnExtPageTimed") ;
-    el.addEventListener(evt, openExtPageTimed, false) ;
-    el = document.getElementById("id_btnExtPageSysBrowser") ;
-    el.addEventListener(evt, extPageSysBrowser, false) ;
-    el = document.getElementById("id_btnOpenPDF") ;
-    el.addEventListener(evt, openOnlinePDF, false) ;
-    el = document.getElementById("id_btnLocalImg") ;
-    el.addEventListener(evt, localImg, false) ;
+    el.addEventListener(evt, myEventHandler, false) ;
+    // el = document.getElementById("id_btnExtPageTimed") ;
+    // el.addEventListener(evt, openExtPageTimed, false) ;
+    // el = document.getElementById("id_btnExtPageSysBrowser") ;
+    // el.addEventListener(evt, extPageSysBrowser, false) ;
+    // el = document.getElementById("id_btnOpenPDF") ;
+    // el.addEventListener(evt, openOnlinePDF, false) ;
+    // el = document.getElementById("id_btnLocalImg") ;
+    // el.addEventListener(evt, localImg, false) ;
 
     // NOTE: ...you can put other miscellaneous init stuff in this function...
     // NOTE: ...and add whatever else you want to do now that the app has started...
