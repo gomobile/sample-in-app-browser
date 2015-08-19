@@ -1,23 +1,25 @@
 {
-   "repoName" : "sample-in-app-browser",
-   "description" : "This sample application showcases the Cordova* InAppBrowser API. With this sample app you can access webpages, open PDF files and local stored images.",
-   "appPreview" : false,
-   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
-   "relName" : "4.0.0",
-   "articleUrl" : "https://github.com/gomobile/sample-in-app-browser/blob/master/docs/README.md",
-   "highlights" : [
-      "Apache Cordova API"
-   ],
-   "mobile" : false,
-   "keywords" : [
+    "title" : "InAppBrowser",
+    "abbr" : "InAppBrowser",
+    "tooltip" : "A simple app to show InAppBrowser API utilization",
+    "description" : "This sample application showcases the Cordova* InAppBrowser API. With this sample app you can access webpages, open PDF files and local stored images.",
+    "repoName" : "sample-in-app-browser",
+    "articleUrl" : "https://github.com/gomobile/sample-in-app-browser/blob/master/docs/README.md",
+    "section" : "samples",
+    "group" : "",
+    "visible" : true,
+    "keywords" : [
       "Apache Cordova API",
       "InAppBrowser"
-   ],
-   "iconUrl" : "",
-   "screenshotUrl" : "",
-   "title" : "InAppBrowser",
-   "tooltip" : "A simple app to show InAppBrowser API utilization",
-   "visible" : true,
-   "sample" : true,
-   "appName" : "demo.inappbrowser"
+    ],
+    "highlights" : [
+      "Apache Cordova API",
+      "InAppBrowser"
+    ],
+    "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+    "landscape" : false,
+    "appName" : "demo.hellocordova",
+    "appPreview" : false,
+    "sample" : true,
+    "mobile" : false
 }
