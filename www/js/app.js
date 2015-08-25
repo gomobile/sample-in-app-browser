@@ -102,7 +102,7 @@ function openOnlinePDF() {
             emulatorAlert();
             console.log(fName, "emulator alert");
         } else {
-            var ref = window.open('http://www.i-drain.net/userfiles/file/einbauanleitung_iboard.pdf', '_system', 'location=yes');
+            var ref = window.open('http://www.i-drain.net/userfiles/file/einbauanleitung_iboard.pdf', '_blank', 'location=yes');
             console.log(fName, "try, success");
         }
     } catch (e) {
