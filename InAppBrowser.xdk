@@ -18,6 +18,23 @@
         "cordovaPluginsDirectory": "plugins",
         "cordovaPlugins": [
             {
+                "id": "org.apache.cordova.statusbar",
+                "name": "StatusBar",
+                "version": "?",
+                "originType": "cordova.io",
+                "origin": "org.apache.cordova.statusbar",
+                "gitref": "",
+                "paramvals": {},
+                "selectedState": "Included",
+                "dependsOn": [],
+                "topLevel": true,
+                "cordovaVersion": "?",
+                "permissions": {},
+                "description": "Cordova StatusBar Plugin",
+                "data": {},
+                "dependedBy": []
+             },
+            {
                 "id": "cordova-plugin-device",
                 "version": "?",
                 "selectedState": "Included",
@@ -47,7 +64,7 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "Splashscreen",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova Splashscreen Plugin"
             },
             {
@@ -64,7 +81,7 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "InAppBrowser",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova InAppBrowser Plugin"
             }
         ],
@@ -82,17 +99,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "demo.inappbrowser",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -118,17 +135,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "demo.inappbrowser",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -153,17 +170,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "demo.inappbrowser",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -188,17 +205,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "demo.inappbrowser",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -219,17 +236,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "not.yet.specified",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -247,17 +264,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "not.yet.specified",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -275,17 +292,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "not.yet.specified",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -303,17 +320,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "not.yet.specified",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
@@ -331,17 +348,17 @@
                 "appName_": "InAppBrowser",
                 "appID_": "not.yet.specified",
                 "appAccess_": {
-                  "mode": "legacy",
-                  "network": [
-                    "http://debug-software.intel.com/*",
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "intents": [
-                    "http://html5test.com/*",
-                    "http://www.i-drain.net/*"
-                  ],
-                  "navigation": []
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "intents": [
+                        "http://html5test.com/*",
+                        "http://www.i-drain.net/*"
+                    ],
+                    "navigation": []
                 },
                 "icons_": [],
                 "splashes_": [],
