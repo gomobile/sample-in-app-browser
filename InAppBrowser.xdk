@@ -101,7 +101,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -137,7 +138,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -172,7 +174,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -207,7 +210,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -238,7 +242,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -266,7 +270,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -294,7 +299,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -322,7 +328,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
@@ -350,7 +357,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "http://html5test.com/*",
                         "http://www.i-drain.net/*"
                     ],
