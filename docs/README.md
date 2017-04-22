@@ -1,27 +1,33 @@
-# InAppBrowser Tutorial #
-================================
+InAppBrowser Tutorial
+=====================
 
-This sample app shows how to use the following Cordova* InAppBrowser API methods:
+This sample app shows how to use the following Cordova\* InAppBrowser API methods:
 
+- `addEventListener()`: Adds a listener for an event from the InAppBrowser.
 
+- `window.open()`: Opens a new browser window. For Android devices, opens the
+  default browser. For iOS devices, opens the InAppBrowser.
 
-- addEventListener(): Adds a listener for an event from the InAppBrowser.
-- window.open(): Opens a new browser window. For Android devices, opens the default browser. For iOS devices, opens the InAppBrowser.
-- close(): Closes the InAppBrowser window.
+- `window.close()`: Closes the InAppBrowser window.
 
-## Sample Contents ##
+Sample Contents
+---------------
 
-The app illustrates opening a webpage in InAppBrowser, Open a webpage and closing it in 3 seconds using the close() method, opening a webpage in system browser, opening an online PDF file and opening a local image file. 
+The app illustrates opening a webpage in InAppBrowser, Open a webpage and
+closing it in 3 seconds using the `close()` method, opening a webpage in system
+browser, opening an online PDF file and opening a local image file.
 
 ![](screenshot.png)
 
+Important App Files
+-------------------
 
+`js/init-app.js` - The initialization place for your code. App init point
+  (runs on custom app.Ready event from xdk/init-dev.js). Runs after underlying
+  device native code and the webview is ready.
 
-## Important files ##
-
-`js/init-app.js` - The initialization place for your code.  App init point (runs on custom app.Ready event from `xdk/init-dev.js`). Runs after underlying device native code and webview/browser is ready.
-
-`js/app.js` - Contains methods that binds the buttons click events to the proper handler. 
+`js/app.js` - Contains methods that bind the buttons click events to the
+  proper handler.
 
 Here is an example method to open a webpage in the system web browser:
 
@@ -43,7 +49,3 @@ Here is an example method to open a webpage in the system web browser:
 
     console.log(fName, "exit");
     }
-
-
-
-
